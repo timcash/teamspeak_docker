@@ -1,0 +1,11 @@
+[Unit]
+Description=Oakleon
+After=docker.service
+Requires=docker.service
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/docker run -d -p 80:3000 tim/oakleon2
+
+[Install]
+WantedBy=local.target

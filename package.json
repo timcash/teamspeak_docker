@@ -1,0 +1,14 @@
+{
+  "name": "oakleon_server",
+  "version": "0.0.0",
+  "description": "Simple server for oakleon.com",
+  "repository": "https://github.com/timcash/oakleon_server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "send": "~0.1.4"
+  },
+  "private": true
+}
