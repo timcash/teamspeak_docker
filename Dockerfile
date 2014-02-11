@@ -2,7 +2,7 @@ FROM        ubuntu:12.10
 
 MAINTAINER  Tim Cash, timcash@gmail.com
 
-# INSTALL OS DEPENDENCIES AND NODE.JS
+# INSTALL OS DEPENDENCIES AND TEAMSPEAK
 RUN   apt-get update; apt-get install -y curl
 RUN   curl -O http://files.teamspeak-services.com/releases/3.0.10.2/teamspeak3-server_linux-amd64-3.0.10.2.tar.gz
 RUN   adduser --gecos "" --disabled-login teamspeak3
